@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../../HTML/Images/favicon-16x16.png">
+    <style>
+        img#myImg{
+            display: none;
+        }
+        div{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="img1()">Dhrubo</button>
+    <button onclick="img2()">Ava</button>
+
+    <p></p>
+
+    <img id="myImg" src="#" alt="" height="300" width="300">
+
+    <button id="button1" onclick="para1()">Button1</button>
+    <button id="button2" onclick="para2()">Button2</button>
+    <p id="para">Demo</p>
+    
+    <div class="div">
+        <h1>Heading 1</h1>
+        <h1>Heading 2</h1>
+    </div>
+    <button onclick="prev()">Previous</button>
+    <img id="imgSlider" src="#" alt="" height="300" width="300">
+    <button onclick="next()">Next</button>
+    <br>
+    
+    <!-- css syling using js -->
+    <p id="para-id">css styling using js</p>
+    <button onclick="paraStyle()">Style</button>
+    <button onclick="remStyle()">Remove Style</button>
+
+    <!-- event listener -->
+    <p id="evListen">Event listener practicing</p>
+
+    <!-- multiple event listener -->
+    <h1 id="multi">You have not clicked any button</h1>
+    <button class="myButton">Button 1</button>
+    <button class="myButton">Button 2</button>
+    <button class="myButton">Button 3</button><br>
+
+    <!-- audio play -->
+    <button id="audioButton">Play</button>
+
+    <!-- keypress listener -->
+    <br>
+    <label for="textarea">Message</label>
+    <textarea name="" id="" rows="10" cols="10" aria-label="textarea"></textarea>
+    <p>You have entered nothing</p>
+    <script src="./button_img.js"></script>
+</body>
+
+</html>

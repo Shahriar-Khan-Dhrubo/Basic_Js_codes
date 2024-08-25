@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 150vh;
+}
+details{
+    margin: 10px 10px;
+}
+ol li{
+    margin: 10px 40px;
+}
+img{
+    margin: 50px;
+}
+img:hover{
+    filter: drop-shadow(5px 5px 10px yellow);
+}
+div#drag{
+    background-color: tomato;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}

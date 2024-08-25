@@ -1,0 +1,18 @@
+*{
+    margin: 5px;
+    padding: 10px;
+}
+.para-class{
+    color: brown;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+}
+#audioButton{
+    background-color: blue;
+    border-radius: 1000px;
+}
+.animation{
+    box-shadow: 5px 2px 0px 2px tomato ;
+    opacity: 0.5;
+}
